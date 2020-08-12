@@ -2,6 +2,7 @@ body{
     background-color: #ffbac1;
     font-family: Arial, Helvetica, sans-serif;
     
+    
 }
 .topnav {
     overflow: hidden;
@@ -16,6 +17,7 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    
   }
   
   .topnav a:hover {
@@ -34,6 +36,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
+    height: 150vh;
 }
 #header{
     background-color: #ff364a;
@@ -64,7 +67,10 @@ p{
 
 #footer{
     text-align: right;
-    padding: 10px
+    padding: 10px;
+    bottom: 0;
+    
+
 }
 
 .menu-button{
@@ -73,27 +79,27 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
     transition: all .5s ease-in-out;
-    padding: 5px 10px 10px 0px;
+    padding: 6px 10px 0px 0px;
     /*border: 3px solid #fff;*/
     
 }
 .menu-button-burger{
-    width: 35px;
+    width: 30px;
     height: 4px;
     background: #fff;
     border-radius: 5px;
-    box-shadow: 0 10px 5px rgba(255,101,47,.2);
+    box-shadow: 0px 10px 5px rgba(255,101,47,.2);
     transition: all .5s ease-in-out;
 }
 .menu-button-burger::before,
 .menu-button-burger::after{
     content:'';
     position: absolute;
-    width: 35px;
+    width: 30px;
     height: 4px;
     background: #fff;
     border-radius: 2px;
