@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href ="indexstylesheet.css"/>
+    <script type="text/javascript">
+        function funcClick(){
+            var x = document.getElementById("mypara");
+            x.innerHTML = "Hello, World!!"
+            x.innerHTML = Date();
+        }
+    </script>
+</head>
+<body>
+    <p>Click anywhere in this pane, then try tabbing through the elements.</p>
+
+<label>First in tab order:<input type="text"></label>
+
+<div tabindex="0">Tabbable due to tabindex.</div>
+
+<div>Not tabbable: no tabindex.</div>
+
+<label>Third in tab order:<input type="text"></label>
+<div tabindex="5"> Tabby tab tab </div>
+<div tabindex="1"> New tabby tab tab </div>
+<p id ="mypara">This is a demo parahgraph</p>
+<button type=" button" onclick="funcClick()">Click me!!</button>
+    
+</body>
+</html>
