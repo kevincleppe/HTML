@@ -1,0 +1,23 @@
+.light-bg{
+    background-color: #dce1e4;
+}
+
+.relative{
+    position: relative;
+}
+
+.large-watermark{
+    position: absolute;
+    font-size: 2em;
+    white-space: nowrap;
+    transition: 6s;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bg-gray-200{
+    background: #272729;
+    
+}
+
+.bg-gray-200 a{
+    color: white;
+}
